@@ -1,0 +1,17 @@
+clase  Fraccion :
+
+    def  __init__ ( self , numerador , denominador ):
+        yo . nume  =  numerador
+        yo . deno  =  denominador
+
+    def  mostrar ( yo ):
+        return  '»{} ÷ {}' . formato ( self . nume , self . deno )
+
+
+obj_fraccion1  =  Fraccion ( 21 , 23 )
+obj_fraccion2  =  Fraccion ( 35 , 36 )
+obj_fraccion3  =  Fraccion ( 5 , 5 )
+print ( 'Método show de la clase Fraccion ...' )
+imprimir ( obj_fraccion1 . show ())
+imprimir ( obj_fraccion2 . show ())
+imprimir ( obj_fraccion3 . show ())
